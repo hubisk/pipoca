@@ -2,37 +2,41 @@
     margin: 0;
     padding: 0;
 }
-   /* O " * " aplica a configuração declarada em todo o código do site  */
+   /* O " * " aplica a configuração declarada em todo o código do site, neste caso faz a margem e padding ficar zerado, resetando os valores  */
 
    body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px
 }
-    
+    /* Aqui aplica atributos em toda a página, fontes, fundo e cor */
+
 .menu {
-    list-style: none;
-    border: 1px solid #c0c0c0;
-    float: left;
+    list-style: none; /* Aplica estilo do formato que vai ser apresentado o menu */
+    border: 1px solid #c0c0c0; /* Aplica borda nos itens do menu */
+    float: left; /* Aplica uma posição para o menu */
 }
-    
+    /* Formatação inicial do menu */
+
 .menu li {
-    position: relative;
-    float: left;
+    position: relative; /* Posição do botão referente ao espaço do site, tamanho da janela do navegador */
+    float: left; /* Alinhamento do item dmenu */
     border: 1px solid #c0c0c0;
 }
-    
+    /* Aplica uma ação quando o mouse passa por cima do item do menu, recebe herança de .menu para li */
+
 .menu li a {
     color: #333;
-    text-decoration: none;
+    text-decoration: none; /* Declaração obrigatória */
     padding: 5px 10px;
     display: block;
 }
+ /* Aplica atributo ao link do menu " a " */
 
 .menu li a:hover {
     background: #333;
     color: #fff;
-    -moz-box-shadow: 0 3px 10px #ccc;
-    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc; /* Aplica sombra aos itens do menu */
+    -webkit-box-shadow: 0 3px 10px #ccc; /* Trabalha junto sempre com o -moz */
     text-shadow: 0 0 5px;
 }
 
@@ -43,13 +47,16 @@
     background-color: #fff;
     display: none;
 }
+ /* Formatação primária de todo o menu, cor e posição */
 
 .menu li:hover ul, .menu li.over ul {
     display: block;
 }
+ /* Formatação hover= quando passa o mouse por cima, over=quando clica no botão do menu */
 
 .menu li ul li {
-    border: 1px solid #c0c0c0;
+    border: 1px solid #c0c0c0; /* Aplica borda em cada item da cortina */
     display: block;
     width: 150px;
 }
+/* Aqui manipula a aparência da cortina do Menu, recebendo herança das outras classes tbm */
