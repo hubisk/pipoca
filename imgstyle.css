@@ -1,0 +1,33 @@
+.canto {
+    border-radius: 20px; /* aplica cantos arredondados na imagem, os valores podem ser em pixel ou porcentagem */
+    width: 300px;
+    height: 75%;
+    opacity: 0.5;
+}
+/* Atributos para aplicar nos cantos das imagens */
+
+.redondo {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto; /* aplica responsividade à imagem, ela se adequa ao tamanho da tela */
+    width: 800px;
+    height: 800px;
+    object-fit: cover; /* aplica um efeito de manter o tamnho da imagem mas a borda tem responsividade horizontalmente*/
+    clip-path: circle(50%);
+    
+}
+
+.redondo1 {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto; /* aplica responsividade à imagem, ela se adequa ao tamanho da tela */
+    object-fit: cover; /* aplica um efeito de manter o tamnho da imagem mas a borda tem responsividade horizontalmente*/
+    clip-path: circle(50%);
+
+    filter: brightness(150%);  /* aplica filtros de cores na imagem */
+    filter: saturate(150%);
+    filter: grayscale(30%);
+    filter: blur(5px);
+    filter: sepia();
+}
+

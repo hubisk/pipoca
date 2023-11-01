@@ -5,6 +5,12 @@
    /* O " * " aplica a configuração declarada em todo o código do site, neste caso faz a margem e padding ficar zerado, resetando os valores  */
 
    body {
+    background-color: #040D12;
+	background-image: url(./image/space.jpg);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px
 }
