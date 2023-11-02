@@ -59,3 +59,11 @@ img {
     width: 300px;
     object-fit: cover;
 }
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+/* Aqui faz a tag nav aplicar as imagens uma ao lado da outra */
