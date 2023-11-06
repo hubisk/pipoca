@@ -3,6 +3,14 @@
     padding: o;
 }
 
+@font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 20px;
+    font-display: swap;
+    src: url(https://fonts.googleapis.com/css?family=Audiowide) format('woff2');
+  }
+
 body {
     background-image: url(./image/space.jpg);
     background-color: #040D12;
@@ -60,7 +68,7 @@ body {
 
 .menu li a {
     color: #ffffff;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 14px;
     text-decoration: none;
     padding: 5px 10px;
@@ -114,7 +122,7 @@ main img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin: 25px 70px;
     height: 50px;
     font-size: 24px;
     background-color: #333333;
