@@ -106,6 +106,10 @@ main {
     align-items: center;
 }
 
+main img {
+    box-shadow: 0 30px 30px 0 rgba(#fff, 0.8);
+}
+
 .miolo {
     display: flex;
     justify-content: center;
